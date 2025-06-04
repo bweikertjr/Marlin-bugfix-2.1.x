@@ -11,3 +11,4 @@ M9 an M8 control Air assist on and off
 Stepper motor acceleration and other things need tuning. 
 Next steps - verify bed mesh and probing
 Add custom startup g-code to use bed mesh
+Compiled firmware using VSCODE PlatformIO.  Copied firmware.bin file onto microSD card.  Inserted card into Octopus and rebooted the board/  firmware.bin --> firmware.cur
