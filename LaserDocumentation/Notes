@@ -1,0 +1,13 @@
+Air assist was added, on is low, off is high 6/3/2024 BW 
+Tested frequency of PWM signal at 1khz and 5 khz, I was able to make changes in the firmware to adjust this.
+Tested with g-code form Lightburn, it was working
+Unsure of how M3 I and M4 I work
+Using M3 I, I was able to get constant power working.  Verified with oscillscope
+X-axis endstop worked
+y-axis endstop worked
+z-axis probe working
+Use M43 I W to verify pin state.  Did this both in Lightburn and CNCJS
+M9 an M8 control Air assist on and off
+Stepper motor acceleration and other things need tuning. 
+Next steps - verify bed mesh and probing
+Add custom startup g-code to use bed mesh
